@@ -1,0 +1,1 @@
+apt install dconf-cli git -y && git clone https://github.com/dracula/gnome-terminal && cd gnome-terminal && ./install.sh && wget https://github.com/dracula/gtk/archive/master.zip && unzip master.zip && mv gtk-master /usr/share/themes/ && apt-get install gnome-tweaks
